@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -e
 # user-themes extansion required
 
 # Download and install Jasper-gtk-theme

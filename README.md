@@ -8,32 +8,34 @@ My personal gnome config
 
 ## Installation
 
-#### 1. Install dconf editor, gnome terminal, eza, git, nerd font of your choice and catnap
+#### 1. Install dconf editor, kitty, eza, git, neovim, JetbrainsMono Nerd Font and catnap
 #### For Ubuntu
 
 ```bash
-  sudo apt install dconf-editor gnome-terminal eza git
+  sudo apt install neovim dconf-editor kitty eza git
 ```
 [Build catnap from source](https://catnap-fetch.xyz/)  
-Install nerd font of your choice
+[Install JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts)
 #### For Fedara
 ```bash
-sudo dnf install dconf-editor gnome-terminal eza git
+sudo dnf install neovim dconf-editor kitty eza git
 ```
 [Build catnap from source](https://catnap-fetch.xyz/)  
-Install nerd font of your choice
+[Install JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts)
 
 #### For Arch
 ```bash
-sudo pacman -S dconf-editor gnome-terminal eza git
+sudo pacman -S neovim dconf-editor gnome-terminal eza git nerd-fonts
+# Select JetbrainsMono Nerd Font
 paru -S catnap-git
 ```
-Install nerd font of your choice
 
 #### 2. Install required gnome extensions
 Use GNOME shell extension to install:
 - User Themes
 - Blur my schell
+- Compiz alike magic lamp effect
+- Just Perfection
 #### 3. Clone repository and chmod bash scripts
 ```bash
 git clone https://github.com/Peter12347/dots_GNOME.git
@@ -50,6 +52,6 @@ chmod +x *.sh
 ./terminal.sh # to install terminal theme
 ./wallpaper # to apply wallpaper
 ```
-#### 5. Apply nerd font and change terminal theme
-In terminal preferences apply nerd font and change Nord theme to deafult one. Then restart terminal
+#### 5. Install NvChad
+[Install NvChad](https://nvchad.com/docs/quickstart/install)
 #### 6. Enjoy :)

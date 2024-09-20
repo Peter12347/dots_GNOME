@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -e
 # Find full wallpaper.jpg path
 DIR="$(dirname "$(realpath "$0")")"
 WALLPAPER_PATH="${DIR}/resources/wallpaper.jpg"

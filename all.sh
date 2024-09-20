@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-
+:#!/usr/bin/env bash
+set -e
 # Run all scripts
 ./wallpaper.sh
 ./gtk.sh
