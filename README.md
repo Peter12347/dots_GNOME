@@ -25,7 +25,7 @@ sudo dnf install neovim dconf-editor kitty eza git
 
 #### For Arch
 ```bash
-sudo pacman -S neovim dconf-editor gnome-terminal eza git nerd-fonts
+sudo pacman -S neovim dconf-editor kitty eza git nerd-fonts
 # Select JetbrainsMono Nerd Font
 paru -S catnap-git
 ```
