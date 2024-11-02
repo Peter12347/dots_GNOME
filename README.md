@@ -8,7 +8,7 @@ My personal gnome config
 
 ## Installation
 
-#### 1. Install dconf editor, kitty, eza, git, neovim, JetbrainsMono Nerd Font and catnap
+#### 1. Install neovim, dconf editor, kitty, eza, git, JetbrainsMono Nerd Font and catnap
 #### For Ubuntu
 
 ```bash
@@ -32,10 +32,13 @@ paru -S catnap-git
 
 #### 2. Install required gnome extensions
 Use GNOME shell extension to install:
-- User Themes
-- Blur my schell
-- Compiz alike magic lamp effect
-- Just Perfection
+- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+- [Blur my schell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+- [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) (Turn off World Clock and Weather)
+- [Grant Theft Focus](https://extensions.gnome.org/extension/5410/grand-theft-focus/)
+- [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/) (Turn off indicator, set inner and outer gaps to 0, set Qater tiling activation area to 20)
+- [Compiz alike magic lamp effect](https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/) (Set duration to 301ms)
+- [Compiz windows effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/) (Set: Friction to 4.1, Spring to 10.0, Speedup Factor to 10.0 and Mass to 66)
 #### 3. Clone repository and chmod bash scripts
 ```bash
 git clone https://github.com/Peter12347/dots_GNOME.git
