@@ -3,7 +3,7 @@ set -e
 # user-themes extansion required
 
 # Download and install Jasper-gtk-theme
-git clone https://github.com/vinceliuice/Jasper-gtk-theme resources/downloads/Jasper-gtk-theme
+# git clone https://github.com/vinceliuice/Jasper-gtk-theme resources/downloads/Jasper-gtk-theme
 ./resources/downloads/Jasper-gtk-theme/install.sh -t blue -c dark -l --tweaks nord macos
 
 # Apply Jasper-Blue-Dark-Nord gtk theme for legacy applications and shell
