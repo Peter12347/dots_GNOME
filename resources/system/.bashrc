@@ -11,7 +11,7 @@ PS1='\[\e[0;31m\] \W\[\e[0;34m\] > \[\e[0m\]'
 catnap
 # export PATH="$HOME/.cargo/bin/:$PATH"
 
-# Everything below has beem permanently borrowed from 
+# Everything below has been permanently borrowed from 
 # https://github.com/ChrisTitusTech/mybash/blob/main/README.md
 #
 # Copy file with a progress bar
