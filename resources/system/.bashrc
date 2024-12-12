@@ -12,7 +12,7 @@ catnap
 # export PATH="$HOME/.cargo/bin/:$PATH"
 
 # Everything below has been permanently borrowed from 
-# https://github.com/ChrisTitusTech/mybash/blob/main/README.md
+# https://github.com/ChrisTitusTech/mybash/tree/main
 #
 # Copy file with a progress bar
 cpp() {
