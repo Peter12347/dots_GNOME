@@ -4,7 +4,7 @@ My personal gnome config
 
 ## Final result
 
-![final result](https://github.com/Peter12347/dots_GNOME/blob/main/final.png?raw=true)
+![final result](https://raw.githubusercontent.com/Peter12347/dots_GNOME/refs/heads/main/final.png)
 
 ## Installation
 
