@@ -7,14 +7,10 @@
 
 alias ls='eza -lh'
 alias grep='grep --color=auto'
+alias kew='wmctrl -r :ACTIVE: -e 0,-1,-1,275,650; kew'
 PS1='\[\e[0;31m\] \W\[\e[0;34m\] > \[\e[0m\]'
-catnap
-# export PATH="$HOME/.cargo/bin/:$PATH"
+PATH=$PATH:$HOME/.cargo/bin/
 
-# Everything below has been permanently borrowed from 
-# https://github.com/ChrisTitusTech/mybash/tree/main
-#
-# Copy file with a progress bar
 cpp() {
     set -e
     strace -q -ewrite cp -- "${1}" "${2}" 2>&1 |
@@ -33,7 +29,6 @@ cpp() {
     }
     END { print "" }' total_size="$(stat -c '%s' "${1}")" count=0
 }
-
 # Copy and go to the directory
 cpg() {
 	if [ -d "$2" ]; then
@@ -82,3 +77,5 @@ cd ()
 	fi
 }
 
+catnap
+export PATH="$HOME/.local/bin:$PATH"
