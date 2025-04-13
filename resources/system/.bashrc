@@ -7,7 +7,10 @@
 
 alias ls='eza -lh'
 alias grep='grep --color=auto'
+
+# Resize terminal when running keww
 alias kew='wmctrl -r :ACTIVE: -e 0,-1,-1,275,650; kew'
+
 PS1='\[\e[0;31m\] \W\[\e[0;34m\] > \[\e[0m\]'
 PATH=$PATH:$HOME/.cargo/bin/
 
@@ -78,4 +81,3 @@ cd ()
 }
 
 catnap
-export PATH="$HOME/.local/bin:$PATH"
