@@ -11,7 +11,7 @@
 # username  = {icon = " ", name = "user", color = "(RD)"}
 # hostname  = {icon = " ", name = "hostname", color = "(YW)"}
 uptime    = {icon = " ", name = "UwUptime", color = "(BE)"}
-distro    = {icon = " ", name = "distro", color = "(MA)"}
+distro    = {icon = "󰣇 ", name = "distro", color = "(MA)"}
 # kernel    = {icon = " ", name = "kernel", color = "(MA)"}
 desktop   = {icon = " ", name = "desktop", color = "(RD)"}
 terminal  = {icon = " ", name = "terminal", color = "(GN)"}
