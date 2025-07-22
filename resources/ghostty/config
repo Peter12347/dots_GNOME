@@ -1,0 +1,35 @@
+window-height = 26
+window-width = 80
+
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+
+font-family = JetBrains Mono NF
+font-family-bold = JetBrainsMono NF Bold
+font-family-italic = JetBrainsMono NF Italic
+font-family-bold-italic = JetBrainsMono NF Bold Italic
+font-size = 14
+
+palette = 0=#3B4252
+palette = 1=#BF616A
+palette = 2=#A3BE8C
+palette = 3=#EBCB8B
+palette = 4=#81A1C1
+palette = 5=#B48EAD
+palette = 6=#88C0D0
+palette = 7=#E5E9F0
+palette = 8=#4C566A
+palette = 9=#BF616A
+palette = 10=#A3BE8C
+palette = 11=#EBCB8B
+palette = 12=#81A1C1
+palette = 13=#B48EAD
+palette = 14=#8FBCBB
+palette = 15=#ECEFF4
+background = #222226
+foreground = #BABDC3
+cursor-color = #88C0D0
+cursor-text = #2E3440
+selection-background = #88C0D0
+selection-foreground = #2E3440
+

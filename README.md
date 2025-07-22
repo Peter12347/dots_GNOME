@@ -8,18 +8,11 @@ My personal gnome config
 
 ## Installation
 
-#### 1. Install neovim, gnome tweaks, firefox, kitty, eza, git, JetbrainsMono Nerd Font catnap and adw-gtk3
-
-#### For Fedara
-```bash
-sudo dnf install neovim gnome-tweaks firefox kitty eza git adw-gtk3-theme
-```
-[Build catnap from source](https://catnap-fetch.xyz/)  
-[Install JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts)
+#### 1. Install dependencies
 
 #### For Arch
 ```bash
-sudo pacman -S neovim gnome-tweaks firefox kitty eza git nerd-fonts adw-gtk-theme
+sudo pacman -S neovim gnome-tweaks firefox ghostty eza git nerd-fonts adw-gtk-theme
 # Select JetbrainsMono Nerd Font
 paru -S catnap-git
 paru -S kew #optional
@@ -40,6 +33,7 @@ Install following browser extensions:
 - [Return Youtube Dislike](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/)
 - [Reddit Enhancer](https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancer/)
 - [Renewed Tab](https://addons.mozilla.org/en-US/firefox/addon/renewed-tab/)
+- [DownThemAll!](https://addons.mozilla.org/en-US/firefox/addon/downthemall/)
 
 #### 3. Install required gnome extensions
 
@@ -60,7 +54,7 @@ cd dots_GNOME
 chmod +x *.sh
 ./install.sh
 ```
-- also install [this](https://github.com/lassekongo83/adw-colors/blob/main/accent-color-change/README.md) script (set color to 9)
+- also run [this](https://github.com/lassekongo83/adw-colors/blob/main/accent-color-change/README.md) script (set color to 9)
 
 #### 5. Install custom firefox css
 
@@ -75,4 +69,3 @@ chmod +x *.sh
 [Install NvChad](https://nvchad.com/docs/quickstart/install)
 
 #### 8. Enjoy :)
-
